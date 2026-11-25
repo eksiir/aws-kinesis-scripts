@@ -1,4 +1,5 @@
-#!/bin/sh -f
+#!/usr/bin/env bash
+set -f
 
 #
 # This is a private script called only by the Kinesis producer to generate partition keys.

@@ -1,4 +1,5 @@
-#!/bin/bash -f
+#!/usr/bin/env bash
+set -f
 
 #
 # AWS Kinesis common script for both the producer and consumer.

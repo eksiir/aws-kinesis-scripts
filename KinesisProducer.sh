@@ -1,4 +1,5 @@
-#!/bin/bash -f
+#!/usr/bin/env bash
+set -f
 
 #
 # AWS Kinesis producer script. It reads from its stdin and publishes them to Kinesis.
